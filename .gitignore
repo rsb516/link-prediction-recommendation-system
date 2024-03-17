@@ -61,7 +61,11 @@ target/
 
 # DotEnv configuration
 .venv
+.vscode
 
+# Test files
+test.py
+code_test.ipynb
 # Database
 *.db
 *.rdb
@@ -71,3 +75,6 @@ target/
 
 # IPython NB Checkpoints
 .ipynb_checkpoints/
+
+# generated csv files
+.csv
